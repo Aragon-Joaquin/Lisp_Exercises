@@ -21,3 +21,26 @@ no, i wont be using Lisp anymore than for this case for these reasons:
 
 
 thanks for reading. maybe i'll update my blog to include a very brief explanation of some chapters.
+
+
+# extras?
+
+install the tar.gz in the provided link (if you're using Chicken), read the README or ignore it and do:
+```sh
+mkdir chicken_bins
+cd chicken-5.4.0
+make PREFIX=$HOME/Desktop/chicken_bins/ install
+```
+
+and then load that *chicken_bins/* into your PATH and source it (source .bashrc) 
+
+```sh
+#compiling
+csc -o ./outputFile 1_1.scm
+./outputFile
+```
+
+```sh
+#or load it into the REPL
+ csi 1_1.scm
+```
