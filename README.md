@@ -7,6 +7,7 @@ I'll be doing the Lisp exercises provided in the same book as i read through the
 
 **using**:
 - [Chicken](https://wiki.call-cc.org/man/5/Getting%20started) (Interpreter & compiler with REPL for the lisp scheme dialect)
+- [SICP_Solutions](https://github.com/mk12/sicp) IN CASE i need help and/or compare my results
 
 ### todo:
 
