@@ -4,6 +4,14 @@ An introduction to programming by reading through this book [Structure and Inter
 
 I'll be doing the Lisp exercises provided in the same book as i read through the chapters.
 
+
+**using**:
+- [Chicken](https://wiki.call-cc.org/man/5/Getting%20started) (Interpreter & compiler with REPL for the lisp scheme dialect)
+
+### todo:
+
+- makefile
+
 ### note:
 no, i wont be using Lisp anymore than for this case for these reasons:
 
