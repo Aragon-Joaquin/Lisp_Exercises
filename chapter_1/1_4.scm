@@ -4,9 +4,10 @@ for combinations whose operators are compound expres-
 sions. Use this observation to describe the behavior of the
 following procedure:
 
+```
 (define (a-plus-abs-b a b)
 ((if (> b 0) + -) a b))
-
+```
 |#
 
 ; we get to define a procedure, more known as a Function in most programming languages which accepts TWO formal parameters
