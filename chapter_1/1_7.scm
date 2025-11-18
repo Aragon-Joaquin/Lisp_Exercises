@@ -33,4 +33,7 @@ test. Does this work better for small and large numbers?
 ; meanwhile the big numbers it requires the procedure to be executed multiple times
 ; because of the exact precision needed to be true 
 
-(print "defining a new square-root procedure ->")
+(print "defining a new square-root procedure ->"):
+
+; i wont be pasting any code that i don't understand
+; so heres, the result :) https://mk12.github.io/sicp/exercise/1/1.html#1.1.7.
