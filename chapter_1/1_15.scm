@@ -2,7 +2,6 @@
 The sine of an angle (specified in radians)
 can be computed by making use of the approximation sin x ~= x
 if x is sufficiently small, and the trigonometric identity
-
 sin x = 3 sin(x/3) - 4sin^3(x/3)
 
 to reduce the size of the argument of sin. (For purposes of
