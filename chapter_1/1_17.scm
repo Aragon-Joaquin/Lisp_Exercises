@@ -20,6 +20,11 @@ tiplication procedure analogous to fast-expt that uses a
 logarithmic number of steps.
 |#
 
+(define (is-even? n)
+    (= (remainder n 2) 0)
+)
+
+
 (define (double n) 
     ( + n n)
 )
@@ -34,14 +39,33 @@ logarithmic number of steps.
 
 
 ;improve this. its logarithmic on steps and linear on depth at least :P
+; (define (mult_exp a b Y)
+;     (if (= b 0)
+;         Y
+;         (if (> (- b 2) 0)
+;             (mult_exp 
+;               a 
+;               (- b 2) 
+;               (+ Y a a)
+;             )
+;             (mult_exp
+;                 a
+;                 ( - b 1)
+;                 (+ Y a)
+;               )
+;         )
+;     )
+; )
+;
+
 (define (mult_exp a b Y)
     (if (= b 0)
         Y
-        (if (> (- b 2) 0)
+        (if (is-even? b)
             (mult_exp 
-              a 
-              (- b 2) 
-              (+ Y a a)
+              (double a) 
+              (halve b) 
+              Y
             )
             (mult_exp
                 a
@@ -52,9 +76,9 @@ logarithmic number of steps.
     )
 )
 
-
 (print (* 2 2 ) ); 4
 (print (* 5 5 ) ); 25
 (print (* 10 10 ) ); 100
+(print (* 100 100 ) ); 10_000
 (print (* 1 1 ) ); 1
 (print (* 1 0 ) ); 0
