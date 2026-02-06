@@ -124,14 +124,14 @@ the number of steps required for the computation?
 (print "1_000_000: " (three-smallest-primes 1000000))
 (newline)
 
-
-(print "search-primes")
-(search-for-primes 1001 1019)
-(search-for-primes 10001 10037)
-(search-for-primes 100001 100043)
-(search-for-primes 1000001 1000037)
-
-(search-for-primes 1000000001 1000000021)
-(search-for-primes 10000000001 10000000061)
-(search-for-primes 100000000001 100000000057)
-(search-for-primes 1000000000001 1000000000063)
+; uncomment if you wont test the time taken by the algorithm in comparison of the 1.23 implementation
+; (print "search-primes")
+; (search-for-primes 1001 1019)
+; (search-for-primes 10001 10037)
+; (search-for-primes 100001 100043)
+; (search-for-primes 1000001 1000037)
+;
+; (search-for-primes 1000000001 1000000021)
+; (search-for-primes 10000000001 10000000061)
+; (search-for-primes 100000000001 100000000057)
+; (search-for-primes 1000000000001 1000000000063)
