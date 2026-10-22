@@ -16,7 +16,8 @@ to approximate zeros of the cubic x3 + ax2 + bx + c.
     (let ((next (f guess)))
       (if (close-enough? guess next)
 	next
-	(try next))))
+	(try next)))
+    )
   (try first-guess)
 )
 
